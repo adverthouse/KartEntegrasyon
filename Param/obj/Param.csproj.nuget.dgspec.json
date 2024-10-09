@@ -5,10 +5,10 @@
   },
   "projects": {
     "/Users/yunus/Desktop/KartEntegrasyon/Param/Param.csproj": {
-      "version": "1.0.0",
+      "version": "8.0.1",
       "restore": {
         "projectUniqueName": "/Users/yunus/Desktop/KartEntegrasyon/Param/Param.csproj",
-        "projectName": "Param",
+        "projectName": "ParamPos",
         "projectPath": "/Users/yunus/Desktop/KartEntegrasyon/Param/Param.csproj",
         "packagesPath": "/Users/yunus/.nuget/packages/",
         "outputPath": "/Users/yunus/Desktop/KartEntegrasyon/Param/obj/",

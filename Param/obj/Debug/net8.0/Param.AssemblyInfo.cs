@@ -10,13 +10,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Param")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Adverthouse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceaa297976607ba7a8843e8532e394822f2e081a")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Library for Parampos integration.")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("8.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.0.1+8ce974dcd57feebeb0909b8618190d665d2c645c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Param")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Param")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("8.0.1.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/adverthouse/KartEntegrasyon.git")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("en")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
 
