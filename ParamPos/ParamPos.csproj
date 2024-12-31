@@ -14,7 +14,7 @@
     <NeutralLanguage>en</NeutralLanguage>
     <PackageIcon> </PackageIcon>
     <RepositoryUrl>https://github.com/adverthouse/KartEntegrasyon.git</RepositoryUrl>
-    <Version>9.0.1</Version>
+    <Version>9.0.2</Version>
   </PropertyGroup>
 
 <ItemGroup>
