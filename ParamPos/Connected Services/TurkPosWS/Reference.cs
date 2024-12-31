@@ -7,61 +7,61 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TurkPosWSTEST
+namespace TurkPosWS
 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ServiceModel.ServiceContractAttribute(Name="TurkPos WS TESTSoap", Namespace="https://turkpos.com.tr/", ConfigurationName="TurkPosWSTEST.TurkPosWSTESTSoap")]
-    public interface TurkPosWSTESTSoap
+    [System.ServiceModel.ServiceContractAttribute(Name="TurkPos WS Soap", Namespace="https://turkpos.com.tr/", ConfigurationName="TurkPosWS.TurkPosWSSoap")]
+    public interface TurkPosWSSoap
     {
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/BIN_SanalPos", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc BIN_SanalPos(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN);
+        TurkPosWS.ST_Genel_Sonuc BIN_SanalPos(TurkPosWS.ST_WS_Guvenlik G, string BIN);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/BIN_SanalPos", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> BIN_SanalPosAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> BIN_SanalPosAsync(TurkPosWS.ST_WS_Guvenlik G, string BIN);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/BIN_SanalPos2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc BIN_SanalPos2(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN);
+        TurkPosWS.ST_Genel_Sonuc BIN_SanalPos2(TurkPosWS.ST_WS_Guvenlik G, string BIN);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/BIN_SanalPos2", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> BIN_SanalPos2Async(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> BIN_SanalPos2Async(TurkPosWS.ST_WS_Guvenlik G, string BIN);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Ozel_Oran_Liste", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc TP_Ozel_Oran_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID);
+        TurkPosWS.ST_Genel_Sonuc TP_Ozel_Oran_Liste(TurkPosWS.ST_WS_Guvenlik G, string GUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Ozel_Oran_Liste", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Ozel_Oran_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Ozel_Oran_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Ozel_Oran_SK_Liste", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc TP_Ozel_Oran_SK_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID);
+        TurkPosWS.ST_Genel_Sonuc TP_Ozel_Oran_SK_Liste(TurkPosWS.ST_WS_Guvenlik G, string GUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Ozel_Oran_SK_Liste", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Ozel_Oran_SK_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Ozel_Oran_SK_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Ozel_Oran_SK_Guncelle", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc TP_Ozel_Oran_SK_Guncelle(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12);
+        TurkPosWS.ST_Sonuc TP_Ozel_Oran_SK_Guncelle(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Ozel_Oran_SK_Guncelle", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Ozel_Oran_SK_GuncelleAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Ozel_Oran_SK_GuncelleAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Dekont_Gonder", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc TP_Islem_Dekont_Gonder(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta);
+        TurkPosWS.ST_Sonuc TP_Islem_Dekont_Gonder(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Dekont_Gonder", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Dekont_GonderAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Dekont_GonderAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -88,8 +88,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_OdemeAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_OdemeAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -117,15 +117,15 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_Pay", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_WMD_Pay TP_WMD_Pay(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID);
+        TurkPosWS.ST_WMD_Pay TP_WMD_Pay(TurkPosWS.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_Pay", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_Pay> TP_WMD_PayAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_WMD_Pay> TP_WMD_PayAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD_v2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_WMD_UCD_v2 TP_WMD_UCD_v2(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_WMD_UCD_v2 TP_WMD_UCD_v2(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -152,8 +152,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD_v2", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD_v2> TP_WMD_UCD_v2Async(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD_v2> TP_WMD_UCD_v2Async(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -181,8 +181,8 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_WMD_UCD TP_WMD_UCD(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_WMD_UCD TP_WMD_UCD(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -209,8 +209,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_WMD_UCDAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_WMD_UCDAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -238,8 +238,8 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD_WP", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_WMD_UCD TP_WMD_UCD_WP(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_WMD_UCD TP_WMD_UCD_WP(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -269,8 +269,8 @@ namespace TurkPosWSTEST
                     string Islem_Tip);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD_WP", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_WMD_UCD_WPAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_WMD_UCD_WPAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -301,8 +301,8 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD_Puan", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_WMD_UCD TP_WMD_UCD_Puan(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_WMD_UCD TP_WMD_UCD_Puan(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -331,8 +331,8 @@ namespace TurkPosWSTEST
                     string Islem_Tip);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_WMD_UCD_Puan", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_WMD_UCD_PuanAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_WMD_UCD_PuanAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -362,29 +362,29 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Payment_Hopi", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_Payment_Hopi Payment_Hopi(TurkPosWSTEST.CL_Req_Payment_Hopi d);
+        TurkPosWS.CL_Res_Payment_Hopi Payment_Hopi(TurkPosWS.CL_Req_Payment_Hopi d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Payment_Hopi", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_Payment_Hopi> Payment_HopiAsync(TurkPosWSTEST.CL_Req_Payment_Hopi d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_Payment_Hopi> Payment_HopiAsync(TurkPosWS.CL_Req_Payment_Hopi d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Multiple_Payment", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Multiple_Payment TP_Multiple_Payment(TurkPosWSTEST.CL_Payment Payment_Info);
+        TurkPosWS.CL_Multiple_Payment TP_Multiple_Payment(TurkPosWS.CL_Payment Payment_Info);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Multiple_Payment", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Multiple_Payment> TP_Multiple_PaymentAsync(TurkPosWSTEST.CL_Payment Payment_Info);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Multiple_Payment> TP_Multiple_PaymentAsync(TurkPosWS.CL_Payment Payment_Info);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Multiple_Payment_Status", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Multiple_Payment_Status TP_Multiple_Payment_Status(TurkPosWSTEST.CL_Payment_Status Payment_Info);
+        TurkPosWS.CL_Multiple_Payment_Status TP_Multiple_Payment_Status(TurkPosWS.CL_Payment_Status Payment_Info);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Multiple_Payment_Status", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Multiple_Payment_Status> TP_Multiple_Payment_StatusAsync(TurkPosWSTEST.CL_Payment_Status Payment_Info);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Multiple_Payment_Status> TP_Multiple_Payment_StatusAsync(TurkPosWS.CL_Payment_Status Payment_Info);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_WNS", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme_WNS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme_WNS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -412,8 +412,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_WNS", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Odeme_WNSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Odeme_WNSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -442,8 +442,8 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_WD", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme_WD(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme_WD(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int Doviz_Kodu, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -470,8 +470,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_WD", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Odeme_WDAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Odeme_WDAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int Doviz_Kodu, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -499,15 +499,15 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_BKM", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme_BKM TP_Islem_Odeme_BKM(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL);
+        TurkPosWS.ST_TP_Islem_Odeme_BKM TP_Islem_Odeme_BKM(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_BKM", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_BKM> TP_Islem_Odeme_BKMAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL);
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_BKM> TP_Islem_Odeme_BKMAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_WKS", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme_WKS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme_WKS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KS_Kart_No, 
@@ -532,8 +532,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_WKS", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Odeme_WKSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Odeme_WKSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KS_Kart_No, 
@@ -559,22 +559,22 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/KK_Saklama", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_KK_Saklama KK_Saklama(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3);
+        TurkPosWS.ST_KK_Saklama KK_Saklama(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/KK_Saklama", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_KK_Saklama> KK_SaklamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3);
+        System.Threading.Tasks.Task<TurkPosWS.ST_KK_Saklama> KK_SaklamaAsync(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/KK_Sakli_Liste", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc KK_Sakli_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID);
+        TurkPosWS.ST_Genel_Sonuc KK_Sakli_Liste(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/KK_Sakli_Liste", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> KK_Sakli_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> KK_Sakli_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pos_Odeme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme Pos_Odeme(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme Pos_Odeme(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -606,8 +606,8 @@ namespace TurkPosWSTEST
                     string Data10);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pos_Odeme", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> Pos_OdemeAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> Pos_OdemeAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -640,134 +640,134 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc TP_Islem_Sorgulama(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
+        TurkPosWS.ST_Genel_Sonuc TP_Islem_Sorgulama(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Islem_SorgulamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Islem_SorgulamaAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama4", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc2 TP_Islem_Sorgulama4(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
+        TurkPosWS.ST_Genel_Sonuc2 TP_Islem_Sorgulama4(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama4", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc2> TP_Islem_Sorgulama4Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc2> TP_Islem_Sorgulama4Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama5", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc3 TP_Islem_Sorgulama5(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
+        TurkPosWS.ST_Genel_Sonuc3 TP_Islem_Sorgulama5(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama5", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc3> TP_Islem_Sorgulama5Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc3> TP_Islem_Sorgulama5Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama6", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_WMD_UCD TP_Islem_Sorgulama6(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID);
+        TurkPosWS.ST_WMD_UCD TP_Islem_Sorgulama6(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama6", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_Islem_Sorgulama6Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_Islem_Sorgulama6Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama_WP", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Islem_Sorgulama_WP TP_Islem_Sorgulama_WP(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No);
+        TurkPosWS.ST_Islem_Sorgulama_WP TP_Islem_Sorgulama_WP(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Sorgulama_WP", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Islem_Sorgulama_WP> TP_Islem_Sorgulama_WPAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Islem_Sorgulama_WP> TP_Islem_Sorgulama_WPAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Mutabakat_Detay", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc TP_Mutabakat_Detay(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih);
+        TurkPosWS.ST_Genel_Sonuc TP_Mutabakat_Detay(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Mutabakat_Detay", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Mutabakat_DetayAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Mutabakat_DetayAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Mutabakat_Ozet", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc TP_Mutabakat_Ozet(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit);
+        TurkPosWS.ST_Genel_Sonuc TP_Mutabakat_Ozet(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Mutabakat_Ozet", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Mutabakat_OzetAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Mutabakat_OzetAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc TP_Islem_Iptal_Iade(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID);
+        TurkPosWS.ST_Sonuc TP_Islem_Iptal_Iade(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Iptal_IadeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Iptal_IadeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc_II TP_Islem_Iptal_Iade2(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID);
+        TurkPosWS.ST_Sonuc_II TP_Islem_Iptal_Iade2(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade2", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_II> TP_Islem_Iptal_Iade2Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_II> TP_Islem_Iptal_Iade2Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Izleme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc TP_Islem_Izleme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum);
+        TurkPosWS.ST_Genel_Sonuc TP_Islem_Izleme(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Izleme", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Islem_IzlemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Islem_IzlemeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc TP_Islem_Iptal_Iade_Kismi(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar);
+        TurkPosWS.ST_Sonuc TP_Islem_Iptal_Iade_Kismi(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Iptal_Iade_KismiAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Iptal_Iade_KismiAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi2(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
+        TurkPosWS.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi2(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi2", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi2Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi2Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi3(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
+        TurkPosWS.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi3(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi3", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi3Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi3Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi4", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc4 TP_Islem_Iptal_Iade_Kismi4(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
+        TurkPosWS.ST_Sonuc4 TP_Islem_Iptal_Iade_Kismi4(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi4", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc4> TP_Islem_Iptal_Iade_Kismi4Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc4> TP_Islem_Iptal_Iade_Kismi4Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi_WP", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc_WP TP_Islem_Iptal_Iade_Kismi_WP(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
+        TurkPosWS.ST_Sonuc_WP TP_Islem_Iptal_Iade_Kismi_WP(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_Iade_Kismi_WP", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_WP> TP_Islem_Iptal_Iade_Kismi_WPAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_WP> TP_Islem_Iptal_Iade_Kismi_WPAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_OnProv", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc TP_Islem_Iptal_OnProv(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID);
+        TurkPosWS.ST_Sonuc TP_Islem_Iptal_OnProv(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Iptal_OnProv", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Iptal_OnProvAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Iptal_OnProvAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_KK_Verify", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme TP_KK_Verify(TurkPosWSTEST.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5);
+        TurkPosWS.ST_TP_Islem_Odeme TP_KK_Verify(TurkPosWS.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_KK_Verify", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_KK_VerifyAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5);
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_KK_VerifyAsync(TurkPosWS.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv_Kapa", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme_OnProvKapa TP_Islem_Odeme_OnProv_Kapa(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID);
+        TurkPosWS.ST_TP_Islem_Odeme_OnProvKapa TP_Islem_Odeme_OnProv_Kapa(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv_Kapa", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_OnProvKapa> TP_Islem_Odeme_OnProv_KapaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID);
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_OnProvKapa> TP_Islem_Odeme_OnProv_KapaAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -793,8 +793,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProvAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProvAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -821,8 +821,8 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv_WMD", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_WMD_UCD TP_Islem_Odeme_OnProv_WMD(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_WMD_UCD TP_Islem_Odeme_OnProv_WMD(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -849,8 +849,8 @@ namespace TurkPosWSTEST
                     int Taksit);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv_WMD", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_Islem_Odeme_OnProv_WMDAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_Islem_Odeme_OnProv_WMDAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -878,8 +878,8 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv_WKS", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv_WKS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv_WKS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KS_Kart_No, 
                     string KK_GUID, 
@@ -902,8 +902,8 @@ namespace TurkPosWSTEST
                     string Data5);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Odeme_OnProv_WKS", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProv_WKSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProv_WKSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KS_Kart_No, 
                     string KK_GUID, 
@@ -927,22 +927,22 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Checkout_SK", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_CheckOut_Sonuc TP_Islem_Checkout_SK(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar);
+        TurkPosWS.ST_CheckOut_Sonuc TP_Islem_Checkout_SK(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Checkout_SK", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_CheckOut_Sonuc> TP_Islem_Checkout_SKAsync(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar);
+        System.Threading.Tasks.Task<TurkPosWS.ST_CheckOut_Sonuc> TP_Islem_Checkout_SKAsync(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Checkout", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc TP_Islem_Checkout(string CLIENT_CODE, string GUID, string IPAdr);
+        TurkPosWS.ST_Sonuc TP_Islem_Checkout(string CLIENT_CODE, string GUID, string IPAdr);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Checkout", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_CheckoutAsync(string CLIENT_CODE, string GUID, string IPAdr);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_CheckoutAsync(string CLIENT_CODE, string GUID, string IPAdr);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Checkout_Odeme_WNS", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Checkout_Odeme_WNS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Checkout_Odeme_WNS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -971,8 +971,8 @@ namespace TurkPosWSTEST
                     string Firma_IPAdr);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Islem_Checkout_Odeme_WNS", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Checkout_Odeme_WNSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Checkout_Odeme_WNSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -1009,15 +1009,15 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Vadeli_Islem_Izleme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Vadeli_Islem_Izleme_Sonuc Vadeli_Islem_Izleme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No);
+        TurkPosWS.ST_Vadeli_Islem_Izleme_Sonuc Vadeli_Islem_Izleme(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Vadeli_Islem_Izleme", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Vadeli_Islem_Izleme_Sonuc> Vadeli_Islem_IzlemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Vadeli_Islem_Izleme_Sonuc> Vadeli_Islem_IzlemeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Ekleme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -1039,8 +1039,8 @@ namespace TurkPosWSTEST
                     string Bagli_Olunan_Hesap);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Ekleme", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_EklemeAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_EklemeAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -1063,8 +1063,8 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -1088,8 +1088,8 @@ namespace TurkPosWSTEST
                     string MagentoId);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2Async(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2Async(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -1114,15 +1114,15 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Guncelleme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap);
+        TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Guncelleme", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_GuncellemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap);
+        System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_GuncellemeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID_AltUyeIsyeri, 
                     string Ad_Soyad, 
                     string Unvan, 
@@ -1141,8 +1141,8 @@ namespace TurkPosWSTEST
                     string MagentoId);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2Async(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2Async(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID_AltUyeIsyeri, 
                     string Ad_Soyad, 
                     string Unvan, 
@@ -1162,129 +1162,129 @@ namespace TurkPosWSTEST
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Liste", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.Sonuc_Uyelik_Liste Pazaryeri_TP_AltUyeIsyeri_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip);
+        TurkPosWS.Sonuc_Uyelik_Liste Pazaryeri_TP_AltUyeIsyeri_Liste(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Liste", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik_Liste> Pazaryeri_TP_AltUyeIsyeri_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip);
+        System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik_Liste> Pazaryeri_TP_AltUyeIsyeri_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Silme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        object Pazaryeri_TP_AltUyeIsyeri_Silme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri);
+        object Pazaryeri_TP_AltUyeIsyeri_Silme(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_AltUyeIsyeri_Silme", ReplyAction="*")]
-        System.Threading.Tasks.Task<object> Pazaryeri_TP_AltUyeIsyeri_SilmeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri);
+        System.Threading.Tasks.Task<object> Pazaryeri_TP_AltUyeIsyeri_SilmeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Iptal_Iade", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.STC_SonucII Pazaryeri_TP_Iptal_Iade(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar);
+        TurkPosWS.STC_SonucII Pazaryeri_TP_Iptal_Iade(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Iptal_Iade", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.STC_SonucII> Pazaryeri_TP_Iptal_IadeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar);
+        System.Threading.Tasks.Task<TurkPosWS.STC_SonucII> Pazaryeri_TP_Iptal_IadeAsync(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Limit_Kontrol", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.Sonuc_Limit2 Pazaryeri_TP_Limit_Kontrol(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek);
+        TurkPosWS.Sonuc_Limit2 Pazaryeri_TP_Limit_Kontrol(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Limit_Kontrol", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Limit2> Pazaryeri_TP_Limit_KontrolAsync(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek);
+        System.Threading.Tasks.Task<TurkPosWS.Sonuc_Limit2> Pazaryeri_TP_Limit_KontrolAsync(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Siparis_Detay_Ekle", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.SE_Sonuc Pazaryeri_TP_Siparis_Detay_Ekle(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri);
+        TurkPosWS.SE_Sonuc Pazaryeri_TP_Siparis_Detay_Ekle(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Siparis_Detay_Ekle", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.SE_Sonuc> Pazaryeri_TP_Siparis_Detay_EkleAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri);
+        System.Threading.Tasks.Task<TurkPosWS.SE_Sonuc> Pazaryeri_TP_Siparis_Detay_EkleAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailAdd", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_MP_ODA MP_OrderDetailAdd(TurkPosWSTEST.CL_Req_MP_ODA d);
+        TurkPosWS.CL_Res_MP_ODA MP_OrderDetailAdd(TurkPosWS.CL_Req_MP_ODA d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailAdd", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODA> MP_OrderDetailAddAsync(TurkPosWSTEST.CL_Req_MP_ODA d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODA> MP_OrderDetailAddAsync(TurkPosWS.CL_Req_MP_ODA d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailUpdate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_MP_ODU MP_OrderDetailUpdate(TurkPosWSTEST.CL_Req_MP_ODU d);
+        TurkPosWS.CL_Res_MP_ODU MP_OrderDetailUpdate(TurkPosWS.CL_Req_MP_ODU d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailUpdate", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODU> MP_OrderDetailUpdateAsync(TurkPosWSTEST.CL_Req_MP_ODU d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODU> MP_OrderDetailUpdateAsync(TurkPosWS.CL_Req_MP_ODU d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_MP_ODS MP_OrderDetailStatus(TurkPosWSTEST.CL_Req_MP_ODS d);
+        TurkPosWS.CL_Res_MP_ODS MP_OrderDetailStatus(TurkPosWS.CL_Req_MP_ODS d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODS> MP_OrderDetailStatusAsync(TurkPosWSTEST.CL_Req_MP_ODS d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODS> MP_OrderDetailStatusAsync(TurkPosWS.CL_Req_MP_ODS d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailQuery", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_MP_ODQ MP_OrderDetailQuery(TurkPosWSTEST.CL_Req_MP_ODQ d);
+        TurkPosWS.CL_Res_MP_ODQ MP_OrderDetailQuery(TurkPosWS.CL_Req_MP_ODQ d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailQuery", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODQ> MP_OrderDetailQueryAsync(TurkPosWSTEST.CL_Req_MP_ODQ d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODQ> MP_OrderDetailQueryAsync(TurkPosWS.CL_Req_MP_ODQ d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderCancelRefund", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_MP_OCR MP_OrderCancelRefund(TurkPosWSTEST.CL_Req_MP_OCR d);
+        TurkPosWS.CL_Res_MP_OCR MP_OrderCancelRefund(TurkPosWS.CL_Req_MP_OCR d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderCancelRefund", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_OCR> MP_OrderCancelRefundAsync(TurkPosWSTEST.CL_Req_MP_OCR d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_OCR> MP_OrderCancelRefundAsync(TurkPosWS.CL_Req_MP_OCR d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailList", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_MP_ODL MP_OrderDetailList(TurkPosWSTEST.CL_Req_MP_ODL d);
+        TurkPosWS.CL_Res_MP_ODL MP_OrderDetailList(TurkPosWS.CL_Req_MP_ODL d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MP_OrderDetailList", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODL> MP_OrderDetailListAsync(TurkPosWSTEST.CL_Req_MP_ODL d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODL> MP_OrderDetailListAsync(TurkPosWS.CL_Req_MP_ODL d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Modal_Payment", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.CL_Res_Odeme TP_Modal_Payment(TurkPosWSTEST.CL_Req_Odeme d);
+        TurkPosWS.CL_Res_Odeme TP_Modal_Payment(TurkPosWS.CL_Req_Odeme d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/TP_Modal_Payment", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_Odeme> TP_Modal_PaymentAsync(TurkPosWSTEST.CL_Req_Odeme d);
+        System.Threading.Tasks.Task<TurkPosWS.CL_Res_Odeme> TP_Modal_PaymentAsync(TurkPosWS.CL_Req_Odeme d);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Param_Pazaryeri_Islem_Izleme", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.IslemIzlemeRes Param_Pazaryeri_Islem_Izleme(TurkPosWSTEST.ST_WS_Guvenlik G, TurkPosWSTEST.IslemIzlemeReq islemIzlemeReq);
+        TurkPosWS.IslemIzlemeRes Param_Pazaryeri_Islem_Izleme(TurkPosWS.ST_WS_Guvenlik G, TurkPosWS.IslemIzlemeReq islemIzlemeReq);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Param_Pazaryeri_Islem_Izleme", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.IslemIzlemeRes> Param_Pazaryeri_Islem_IzlemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, TurkPosWSTEST.IslemIzlemeReq islemIzlemeReq);
+        System.Threading.Tasks.Task<TurkPosWS.IslemIzlemeRes> Param_Pazaryeri_Islem_IzlemeAsync(TurkPosWS.ST_WS_Guvenlik G, TurkPosWS.IslemIzlemeReq islemIzlemeReq);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Siparis_Onay", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.STC_Sonuc Pazaryeri_TP_Siparis_Onay(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum);
+        TurkPosWS.STC_Sonuc Pazaryeri_TP_Siparis_Onay(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Siparis_Onay", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.STC_Sonuc> Pazaryeri_TP_Siparis_OnayAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum);
+        System.Threading.Tasks.Task<TurkPosWS.STC_Sonuc> Pazaryeri_TP_Siparis_OnayAsync(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Islem_Sorgulama", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc Pazaryeri_TP_Islem_Sorgulama(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit);
+        TurkPosWS.ST_Genel_Sonuc Pazaryeri_TP_Islem_Sorgulama(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pazaryeri_TP_Islem_Sorgulama", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> Pazaryeri_TP_Islem_SorgulamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> Pazaryeri_TP_Islem_SorgulamaAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pos_Plugin_Bildirim", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc Pos_Plugin_Bildirim(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi);
+        TurkPosWS.ST_Genel_Sonuc Pos_Plugin_Bildirim(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Pos_Plugin_Bildirim", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> Pos_Plugin_BildirimAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> Pos_Plugin_BildirimAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Il_Liste", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Sonuc_DT Il_Liste(TurkPosWSTEST.ST_WS_Guvenlik G);
+        TurkPosWS.ST_Sonuc_DT Il_Liste(TurkPosWS.ST_WS_Guvenlik G);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/Il_Liste", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_DT> Il_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_DT> Il_ListeAsync(TurkPosWS.ST_WS_Guvenlik G);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MoneyPay_Islem_Sorgulama", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        TurkPosWSTEST.ST_Genel_Sonuc MoneyPay_Islem_Sorgulama(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit);
+        TurkPosWS.ST_Genel_Sonuc MoneyPay_Islem_Sorgulama(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit);
         
         [System.ServiceModel.OperationContractAttribute(Action="https://turkpos.com.tr/MoneyPay_Islem_Sorgulama", ReplyAction="*")]
-        System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> MoneyPay_Islem_SorgulamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit);
+        System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> MoneyPay_Islem_SorgulamaAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit);
     }
     
     /// <remarks/>
@@ -8680,13 +8680,13 @@ namespace TurkPosWSTEST
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    public interface TurkPosWSTESTSoapChannel : TurkPosWSTEST.TurkPosWSTESTSoap, System.ServiceModel.IClientChannel
+    public interface TurkPosWSSoapChannel : TurkPosWS.TurkPosWSSoap, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    public partial class TurkPosWSTESTSoapClient : System.ServiceModel.ClientBase<TurkPosWSTEST.TurkPosWSTESTSoap>, TurkPosWSTEST.TurkPosWSTESTSoap
+    public partial class TurkPosWSSoapClient : System.ServiceModel.ClientBase<TurkPosWS.TurkPosWSSoap>, TurkPosWS.TurkPosWSSoap
     {
         
         /// <summary>
@@ -8696,94 +8696,94 @@ namespace TurkPosWSTEST
         /// <param name="clientCredentials">The client credentials</param>
         static partial void ConfigureEndpoint(System.ServiceModel.Description.ServiceEndpoint serviceEndpoint, System.ServiceModel.Description.ClientCredentials clientCredentials);
         
-        public TurkPosWSTESTSoapClient(EndpointConfiguration endpointConfiguration) : 
-                base(TurkPosWSTESTSoapClient.GetBindingForEndpoint(endpointConfiguration), TurkPosWSTESTSoapClient.GetEndpointAddress(endpointConfiguration))
+        public TurkPosWSSoapClient(EndpointConfiguration endpointConfiguration) : 
+                base(TurkPosWSSoapClient.GetBindingForEndpoint(endpointConfiguration), TurkPosWSSoapClient.GetEndpointAddress(endpointConfiguration))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public TurkPosWSTESTSoapClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
-                base(TurkPosWSTESTSoapClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
+        public TurkPosWSSoapClient(EndpointConfiguration endpointConfiguration, string remoteAddress) : 
+                base(TurkPosWSSoapClient.GetBindingForEndpoint(endpointConfiguration), new System.ServiceModel.EndpointAddress(remoteAddress))
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public TurkPosWSTESTSoapClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(TurkPosWSTESTSoapClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
+        public TurkPosWSSoapClient(EndpointConfiguration endpointConfiguration, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(TurkPosWSSoapClient.GetBindingForEndpoint(endpointConfiguration), remoteAddress)
         {
             this.Endpoint.Name = endpointConfiguration.ToString();
             ConfigureEndpoint(this.Endpoint, this.ClientCredentials);
         }
         
-        public TurkPosWSTESTSoapClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public TurkPosWSSoapClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc BIN_SanalPos(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN)
+        public TurkPosWS.ST_Genel_Sonuc BIN_SanalPos(TurkPosWS.ST_WS_Guvenlik G, string BIN)
         {
             return base.Channel.BIN_SanalPos(G, BIN);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> BIN_SanalPosAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> BIN_SanalPosAsync(TurkPosWS.ST_WS_Guvenlik G, string BIN)
         {
             return base.Channel.BIN_SanalPosAsync(G, BIN);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc BIN_SanalPos2(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN)
+        public TurkPosWS.ST_Genel_Sonuc BIN_SanalPos2(TurkPosWS.ST_WS_Guvenlik G, string BIN)
         {
             return base.Channel.BIN_SanalPos2(G, BIN);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> BIN_SanalPos2Async(TurkPosWSTEST.ST_WS_Guvenlik G, string BIN)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> BIN_SanalPos2Async(TurkPosWS.ST_WS_Guvenlik G, string BIN)
         {
             return base.Channel.BIN_SanalPos2Async(G, BIN);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc TP_Ozel_Oran_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID)
+        public TurkPosWS.ST_Genel_Sonuc TP_Ozel_Oran_Liste(TurkPosWS.ST_WS_Guvenlik G, string GUID)
         {
             return base.Channel.TP_Ozel_Oran_Liste(G, GUID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Ozel_Oran_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Ozel_Oran_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID)
         {
             return base.Channel.TP_Ozel_Oran_ListeAsync(G, GUID);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc TP_Ozel_Oran_SK_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID)
+        public TurkPosWS.ST_Genel_Sonuc TP_Ozel_Oran_SK_Liste(TurkPosWS.ST_WS_Guvenlik G, string GUID)
         {
             return base.Channel.TP_Ozel_Oran_SK_Liste(G, GUID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Ozel_Oran_SK_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Ozel_Oran_SK_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID)
         {
             return base.Channel.TP_Ozel_Oran_SK_ListeAsync(G, GUID);
         }
         
-        public TurkPosWSTEST.ST_Sonuc TP_Ozel_Oran_SK_Guncelle(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12)
+        public TurkPosWS.ST_Sonuc TP_Ozel_Oran_SK_Guncelle(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12)
         {
             return base.Channel.TP_Ozel_Oran_SK_Guncelle(G, GUID, Ozel_Oran_SK_ID, MO_1, MO_2, MO_3, MO_4, MO_5, MO_6, MO_7, MO_8, MO_9, MO_10, MO_11, MO_12);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Ozel_Oran_SK_GuncelleAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Ozel_Oran_SK_GuncelleAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Ozel_Oran_SK_ID, string MO_1, string MO_2, string MO_3, string MO_4, string MO_5, string MO_6, string MO_7, string MO_8, string MO_9, string MO_10, string MO_11, string MO_12)
         {
             return base.Channel.TP_Ozel_Oran_SK_GuncelleAsync(G, GUID, Ozel_Oran_SK_ID, MO_1, MO_2, MO_3, MO_4, MO_5, MO_6, MO_7, MO_8, MO_9, MO_10, MO_11, MO_12);
         }
         
-        public TurkPosWSTEST.ST_Sonuc TP_Islem_Dekont_Gonder(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta)
+        public TurkPosWS.ST_Sonuc TP_Islem_Dekont_Gonder(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta)
         {
             return base.Channel.TP_Islem_Dekont_Gonder(G, GUID, Dekont_ID, E_Posta);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Dekont_GonderAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Dekont_GonderAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string E_Posta)
         {
             return base.Channel.TP_Islem_Dekont_GonderAsync(G, GUID, Dekont_ID, E_Posta);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -8812,8 +8812,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme(G, SanalPOS_ID, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_OdemeAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_OdemeAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -8842,18 +8842,18 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_OdemeAsync(G, SanalPOS_ID, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_WMD_Pay TP_WMD_Pay(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID)
+        public TurkPosWS.ST_WMD_Pay TP_WMD_Pay(TurkPosWS.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID)
         {
             return base.Channel.TP_WMD_Pay(G, GUID, UCD_MD, Islem_GUID, Siparis_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_Pay> TP_WMD_PayAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_WMD_Pay> TP_WMD_PayAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string UCD_MD, string Islem_GUID, string Siparis_ID)
         {
             return base.Channel.TP_WMD_PayAsync(G, GUID, UCD_MD, Islem_GUID, Siparis_ID);
         }
         
-        public TurkPosWSTEST.ST_WMD_UCD_v2 TP_WMD_UCD_v2(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_WMD_UCD_v2 TP_WMD_UCD_v2(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -8882,8 +8882,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCD_v2(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD_v2> TP_WMD_UCD_v2Async(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD_v2> TP_WMD_UCD_v2Async(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -8912,8 +8912,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCD_v2Async(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_WMD_UCD TP_WMD_UCD(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_WMD_UCD TP_WMD_UCD(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -8942,8 +8942,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCD(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_WMD_UCDAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_WMD_UCDAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -8972,8 +8972,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCDAsync(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_WMD_UCD TP_WMD_UCD_WP(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_WMD_UCD TP_WMD_UCD_WP(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9005,8 +9005,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCD_WP(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Puan, Pos_ID, Islem_Tip);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_WMD_UCD_WPAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_WMD_UCD_WPAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9038,8 +9038,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCD_WPAsync(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Puan, Pos_ID, Islem_Tip);
         }
         
-        public TurkPosWSTEST.ST_WMD_UCD TP_WMD_UCD_Puan(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_WMD_UCD TP_WMD_UCD_Puan(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9070,8 +9070,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCD_Puan(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Pos_ID, Islem_Tip);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_WMD_UCD_PuanAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_WMD_UCD_PuanAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9102,38 +9102,38 @@ namespace TurkPosWSTEST
             return base.Channel.TP_WMD_UCD_PuanAsync(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Pos_ID, Islem_Tip);
         }
         
-        public TurkPosWSTEST.CL_Res_Payment_Hopi Payment_Hopi(TurkPosWSTEST.CL_Req_Payment_Hopi d)
+        public TurkPosWS.CL_Res_Payment_Hopi Payment_Hopi(TurkPosWS.CL_Req_Payment_Hopi d)
         {
             return base.Channel.Payment_Hopi(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_Payment_Hopi> Payment_HopiAsync(TurkPosWSTEST.CL_Req_Payment_Hopi d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_Payment_Hopi> Payment_HopiAsync(TurkPosWS.CL_Req_Payment_Hopi d)
         {
             return base.Channel.Payment_HopiAsync(d);
         }
         
-        public TurkPosWSTEST.CL_Multiple_Payment TP_Multiple_Payment(TurkPosWSTEST.CL_Payment Payment_Info)
+        public TurkPosWS.CL_Multiple_Payment TP_Multiple_Payment(TurkPosWS.CL_Payment Payment_Info)
         {
             return base.Channel.TP_Multiple_Payment(Payment_Info);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Multiple_Payment> TP_Multiple_PaymentAsync(TurkPosWSTEST.CL_Payment Payment_Info)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Multiple_Payment> TP_Multiple_PaymentAsync(TurkPosWS.CL_Payment Payment_Info)
         {
             return base.Channel.TP_Multiple_PaymentAsync(Payment_Info);
         }
         
-        public TurkPosWSTEST.CL_Multiple_Payment_Status TP_Multiple_Payment_Status(TurkPosWSTEST.CL_Payment_Status Payment_Info)
+        public TurkPosWS.CL_Multiple_Payment_Status TP_Multiple_Payment_Status(TurkPosWS.CL_Payment_Status Payment_Info)
         {
             return base.Channel.TP_Multiple_Payment_Status(Payment_Info);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Multiple_Payment_Status> TP_Multiple_Payment_StatusAsync(TurkPosWSTEST.CL_Payment_Status Payment_Info)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Multiple_Payment_Status> TP_Multiple_Payment_StatusAsync(TurkPosWS.CL_Payment_Status Payment_Info)
         {
             return base.Channel.TP_Multiple_Payment_StatusAsync(Payment_Info);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme_WNS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme_WNS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -9163,8 +9163,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_WNS(G, SanalPOS_ID, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Odeme_WNSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Odeme_WNSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -9194,8 +9194,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_WNSAsync(G, SanalPOS_ID, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme_WD(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme_WD(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int Doviz_Kodu, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -9224,8 +9224,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_WD(G, Doviz_Kodu, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Odeme_WDAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Odeme_WDAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int Doviz_Kodu, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -9254,18 +9254,18 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_WDAsync(G, Doviz_Kodu, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme_BKM TP_Islem_Odeme_BKM(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL)
+        public TurkPosWS.ST_TP_Islem_Odeme_BKM TP_Islem_Odeme_BKM(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL)
         {
             return base.Channel.TP_Islem_Odeme_BKM(G, GUID, Customer_Info, Customer_GSM, Error_URL, Success_URL, Order_ID, Order_Description, Amount, Payment_Hash, Transaction_ID, IPAddress, Referrer_URL);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_BKM> TP_Islem_Odeme_BKMAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_BKM> TP_Islem_Odeme_BKMAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Customer_Info, string Customer_GSM, string Error_URL, string Success_URL, string Order_ID, string Order_Description, string Amount, string Payment_Hash, string Transaction_ID, string IPAddress, string Referrer_URL)
         {
             return base.Channel.TP_Islem_Odeme_BKMAsync(G, GUID, Customer_Info, Customer_GSM, Error_URL, Success_URL, Order_ID, Order_Description, Amount, Payment_Hash, Transaction_ID, IPAddress, Referrer_URL);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Odeme_WKS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Odeme_WKS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KS_Kart_No, 
@@ -9292,8 +9292,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_WKS(G, SanalPOS_ID, GUID, KS_Kart_No, KK_GUID, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Odeme_WKSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Odeme_WKSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KS_Kart_No, 
@@ -9320,28 +9320,28 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_WKSAsync(G, SanalPOS_ID, GUID, KS_Kart_No, KK_GUID, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_KK_Saklama KK_Saklama(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3)
+        public TurkPosWS.ST_KK_Saklama KK_Saklama(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3)
         {
             return base.Channel.KK_Saklama(G, Kart_No, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVV, Data1, Data2, Data3);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_KK_Saklama> KK_SaklamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_KK_Saklama> KK_SaklamaAsync(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KK_Sahibi, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVV, string Data1, string Data2, string Data3)
         {
             return base.Channel.KK_SaklamaAsync(G, Kart_No, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVV, Data1, Data2, Data3);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc KK_Sakli_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID)
+        public TurkPosWS.ST_Genel_Sonuc KK_Sakli_Liste(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID)
         {
             return base.Channel.KK_Sakli_Liste(G, Kart_No, KS_KK_Kisi_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> KK_Sakli_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> KK_Sakli_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string Kart_No, string KS_KK_Kisi_ID)
         {
             return base.Channel.KK_Sakli_ListeAsync(G, Kart_No, KS_KK_Kisi_ID);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme Pos_Odeme(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme Pos_Odeme(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9375,8 +9375,8 @@ namespace TurkPosWSTEST
             return base.Channel.Pos_Odeme(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Data6, Data7, Data8, Data9, Data10);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> Pos_OdemeAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> Pos_OdemeAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9410,188 +9410,188 @@ namespace TurkPosWSTEST
             return base.Channel.Pos_OdemeAsync(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Data6, Data7, Data8, Data9, Data10);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc TP_Islem_Sorgulama(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
+        public TurkPosWS.ST_Genel_Sonuc TP_Islem_Sorgulama(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
         {
             return base.Channel.TP_Islem_Sorgulama(G, GUID, Dekont_ID, Siparis_ID, Islem_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Islem_SorgulamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Islem_SorgulamaAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
         {
             return base.Channel.TP_Islem_SorgulamaAsync(G, GUID, Dekont_ID, Siparis_ID, Islem_ID);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc2 TP_Islem_Sorgulama4(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
+        public TurkPosWS.ST_Genel_Sonuc2 TP_Islem_Sorgulama4(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
         {
             return base.Channel.TP_Islem_Sorgulama4(G, GUID, Dekont_ID, Siparis_ID, Islem_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc2> TP_Islem_Sorgulama4Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc2> TP_Islem_Sorgulama4Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
         {
             return base.Channel.TP_Islem_Sorgulama4Async(G, GUID, Dekont_ID, Siparis_ID, Islem_ID);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc3 TP_Islem_Sorgulama5(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
+        public TurkPosWS.ST_Genel_Sonuc3 TP_Islem_Sorgulama5(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
         {
             return base.Channel.TP_Islem_Sorgulama5(G, GUID, Dekont_ID, Siparis_ID, Islem_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc3> TP_Islem_Sorgulama5Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc3> TP_Islem_Sorgulama5Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID)
         {
             return base.Channel.TP_Islem_Sorgulama5Async(G, GUID, Dekont_ID, Siparis_ID, Islem_ID);
         }
         
-        public TurkPosWSTEST.ST_WMD_UCD TP_Islem_Sorgulama6(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID)
+        public TurkPosWS.ST_WMD_UCD TP_Islem_Sorgulama6(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Sorgulama6(G, GUID, Siparis_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_Islem_Sorgulama6Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_Islem_Sorgulama6Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Sorgulama6Async(G, GUID, Siparis_ID);
         }
         
-        public TurkPosWSTEST.ST_Islem_Sorgulama_WP TP_Islem_Sorgulama_WP(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No)
+        public TurkPosWS.ST_Islem_Sorgulama_WP TP_Islem_Sorgulama_WP(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No)
         {
             return base.Channel.TP_Islem_Sorgulama_WP(G, GUID, Dekont_ID, Siparis_ID, Islem_ID, Ref_No);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Islem_Sorgulama_WP> TP_Islem_Sorgulama_WPAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Islem_Sorgulama_WP> TP_Islem_Sorgulama_WPAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Dekont_ID, string Siparis_ID, string Islem_ID, string Ref_No)
         {
             return base.Channel.TP_Islem_Sorgulama_WPAsync(G, GUID, Dekont_ID, Siparis_ID, Islem_ID, Ref_No);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc TP_Mutabakat_Detay(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih)
+        public TurkPosWS.ST_Genel_Sonuc TP_Mutabakat_Detay(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih)
         {
             return base.Channel.TP_Mutabakat_Detay(G, GUID, Tarih);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Mutabakat_DetayAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Mutabakat_DetayAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih)
         {
             return base.Channel.TP_Mutabakat_DetayAsync(G, GUID, Tarih);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc TP_Mutabakat_Ozet(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit)
+        public TurkPosWS.ST_Genel_Sonuc TP_Mutabakat_Ozet(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit)
         {
             return base.Channel.TP_Mutabakat_Ozet(G, GUID, Tarih_Bas, Tarih_Bit);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Mutabakat_OzetAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Mutabakat_OzetAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit)
         {
             return base.Channel.TP_Mutabakat_OzetAsync(G, GUID, Tarih_Bas, Tarih_Bit);
         }
         
-        public TurkPosWSTEST.ST_Sonuc TP_Islem_Iptal_Iade(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID)
+        public TurkPosWS.ST_Sonuc TP_Islem_Iptal_Iade(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID)
         {
             return base.Channel.TP_Islem_Iptal_Iade(G, GUID, Durum, Dekont_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Iptal_IadeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Iptal_IadeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID)
         {
             return base.Channel.TP_Islem_Iptal_IadeAsync(G, GUID, Durum, Dekont_ID);
         }
         
-        public TurkPosWSTEST.ST_Sonuc_II TP_Islem_Iptal_Iade2(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID)
+        public TurkPosWS.ST_Sonuc_II TP_Islem_Iptal_Iade2(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Iptal_Iade2(G, GUID, Durum, Siparis_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_II> TP_Islem_Iptal_Iade2Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_II> TP_Islem_Iptal_Iade2Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Iptal_Iade2Async(G, GUID, Durum, Siparis_ID);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc TP_Islem_Izleme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum)
+        public TurkPosWS.ST_Genel_Sonuc TP_Islem_Izleme(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum)
         {
             return base.Channel.TP_Islem_Izleme(G, GUID, Tarih_Bas, Tarih_Bit, Islem_Tip, Islem_Durum);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> TP_Islem_IzlemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> TP_Islem_IzlemeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Islem_Tip, string Islem_Durum)
         {
             return base.Channel.TP_Islem_IzlemeAsync(G, GUID, Tarih_Bas, Tarih_Bit, Islem_Tip, Islem_Durum);
         }
         
-        public TurkPosWSTEST.ST_Sonuc TP_Islem_Iptal_Iade_Kismi(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar)
+        public TurkPosWS.ST_Sonuc TP_Islem_Iptal_Iade_Kismi(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi(G, GUID, Durum, Dekont_ID, Tutar);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Iptal_Iade_KismiAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Iptal_Iade_KismiAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Dekont_ID, double Tutar)
         {
             return base.Channel.TP_Islem_Iptal_Iade_KismiAsync(G, GUID, Durum, Dekont_ID, Tutar);
         }
         
-        public TurkPosWSTEST.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi2(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
+        public TurkPosWS.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi2(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi2(G, GUID, Durum, Siparis_ID, Tutar);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi2Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi2Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi2Async(G, GUID, Durum, Siparis_ID, Tutar);
         }
         
-        public TurkPosWSTEST.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi3(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
+        public TurkPosWS.ST_Sonuc_II TP_Islem_Iptal_Iade_Kismi3(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi3(G, GUID, Durum, Siparis_ID, Tutar, Ref_No);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi3Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_II> TP_Islem_Iptal_Iade_Kismi3Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi3Async(G, GUID, Durum, Siparis_ID, Tutar, Ref_No);
         }
         
-        public TurkPosWSTEST.ST_Sonuc4 TP_Islem_Iptal_Iade_Kismi4(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
+        public TurkPosWS.ST_Sonuc4 TP_Islem_Iptal_Iade_Kismi4(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi4(G, GUID, Durum, Siparis_ID, Tutar);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc4> TP_Islem_Iptal_Iade_Kismi4Async(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc4> TP_Islem_Iptal_Iade_Kismi4Async(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi4Async(G, GUID, Durum, Siparis_ID, Tutar);
         }
         
-        public TurkPosWSTEST.ST_Sonuc_WP TP_Islem_Iptal_Iade_Kismi_WP(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
+        public TurkPosWS.ST_Sonuc_WP TP_Islem_Iptal_Iade_Kismi_WP(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi_WP(G, GUID, Durum, Siparis_ID, Tutar, Ref_No);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_WP> TP_Islem_Iptal_Iade_Kismi_WPAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_WP> TP_Islem_Iptal_Iade_Kismi_WPAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Durum, string Siparis_ID, double Tutar, string Ref_No)
         {
             return base.Channel.TP_Islem_Iptal_Iade_Kismi_WPAsync(G, GUID, Durum, Siparis_ID, Tutar, Ref_No);
         }
         
-        public TurkPosWSTEST.ST_Sonuc TP_Islem_Iptal_OnProv(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID)
+        public TurkPosWS.ST_Sonuc TP_Islem_Iptal_OnProv(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Iptal_OnProv(G, GUID, Prov_ID, Siparis_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_Iptal_OnProvAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_Iptal_OnProvAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Iptal_OnProvAsync(G, GUID, Prov_ID, Siparis_ID);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme TP_KK_Verify(TurkPosWSTEST.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5)
+        public TurkPosWS.ST_TP_Islem_Odeme TP_KK_Verify(TurkPosWS.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5)
         {
             return base.Channel.TP_KK_Verify(G, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, Return_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_KK_VerifyAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_KK_VerifyAsync(TurkPosWS.ST_WS_Guvenlik G, string KK_No, string KK_SK_Ay, string KK_SK_Yil, string KK_CVC, string Return_URL, string Data1, string Data2, string Data3, string Data4, string Data5)
         {
             return base.Channel.TP_KK_VerifyAsync(G, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, Return_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme_OnProvKapa TP_Islem_Odeme_OnProv_Kapa(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID)
+        public TurkPosWS.ST_TP_Islem_Odeme_OnProvKapa TP_Islem_Odeme_OnProv_Kapa(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Odeme_OnProv_Kapa(G, GUID, Prov_ID, Prov_Tutar, Siparis_ID);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_OnProvKapa> TP_Islem_Odeme_OnProv_KapaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_OnProvKapa> TP_Islem_Odeme_OnProv_KapaAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Prov_ID, string Prov_Tutar, string Siparis_ID)
         {
             return base.Channel.TP_Islem_Odeme_OnProv_KapaAsync(G, GUID, Prov_ID, Prov_Tutar, Siparis_ID);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9619,8 +9619,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_OnProv(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProvAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProvAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9648,8 +9648,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_OnProvAsync(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_WMD_UCD TP_Islem_Odeme_OnProv_WMD(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_WMD_UCD TP_Islem_Odeme_OnProv_WMD(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9678,8 +9678,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_OnProv_WMD(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Taksit);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_WMD_UCD> TP_Islem_Odeme_OnProv_WMDAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_WMD_UCD> TP_Islem_Odeme_OnProv_WMDAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KK_Sahibi, 
                     string KK_No, 
@@ -9708,8 +9708,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_OnProv_WMDAsync(G, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Taksit);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv_WKS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme_OnProv TP_Islem_Odeme_OnProv_WKS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KS_Kart_No, 
                     string KK_GUID, 
@@ -9734,8 +9734,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_OnProv_WKS(G, GUID, KS_Kart_No, KK_GUID, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProv_WKSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme_OnProv> TP_Islem_Odeme_OnProv_WKSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID, 
                     string KS_Kart_No, 
                     string KK_GUID, 
@@ -9760,28 +9760,28 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Odeme_OnProv_WKSAsync(G, GUID, KS_Kart_No, KK_GUID, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5);
         }
         
-        public TurkPosWSTEST.ST_CheckOut_Sonuc TP_Islem_Checkout_SK(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar)
+        public TurkPosWS.ST_CheckOut_Sonuc TP_Islem_Checkout_SK(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar)
         {
             return base.Channel.TP_Islem_Checkout_SK(CLIENT_CODE, GUID, IPAdr, KK_BIN, Tutar);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_CheckOut_Sonuc> TP_Islem_Checkout_SKAsync(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_CheckOut_Sonuc> TP_Islem_Checkout_SKAsync(string CLIENT_CODE, string GUID, string IPAdr, string KK_BIN, string Tutar)
         {
             return base.Channel.TP_Islem_Checkout_SKAsync(CLIENT_CODE, GUID, IPAdr, KK_BIN, Tutar);
         }
         
-        public TurkPosWSTEST.ST_Sonuc TP_Islem_Checkout(string CLIENT_CODE, string GUID, string IPAdr)
+        public TurkPosWS.ST_Sonuc TP_Islem_Checkout(string CLIENT_CODE, string GUID, string IPAdr)
         {
             return base.Channel.TP_Islem_Checkout(CLIENT_CODE, GUID, IPAdr);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc> TP_Islem_CheckoutAsync(string CLIENT_CODE, string GUID, string IPAdr)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc> TP_Islem_CheckoutAsync(string CLIENT_CODE, string GUID, string IPAdr)
         {
             return base.Channel.TP_Islem_CheckoutAsync(CLIENT_CODE, GUID, IPAdr);
         }
         
-        public TurkPosWSTEST.ST_TP_Islem_Odeme TP_Islem_Checkout_Odeme_WNS(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.ST_TP_Islem_Odeme TP_Islem_Checkout_Odeme_WNS(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -9812,8 +9812,8 @@ namespace TurkPosWSTEST
             return base.Channel.TP_Islem_Checkout_Odeme_WNS(G, SanalPOS_ID, GUID, KK_Sahibi, KK_No, KK_SK_Ay, KK_SK_Yil, KK_CVC, KK_Sahibi_GSM, Hata_URL, Basarili_URL, Siparis_ID, Siparis_Aciklama, Taksit, Islem_Tutar, Toplam_Tutar, Islem_Hash, Islem_Guvenlik_Tip, Islem_ID, IPAdr, Ref_URL, Data1, Data2, Data3, Data4, Data5, Firma_IPAdr);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_TP_Islem_Odeme> TP_Islem_Checkout_Odeme_WNSAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.ST_TP_Islem_Odeme> TP_Islem_Checkout_Odeme_WNSAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     int SanalPOS_ID, 
                     string GUID, 
                     string KK_Sahibi, 
@@ -9854,18 +9854,18 @@ namespace TurkPosWSTEST
             return base.Channel.SHA2B64Async(Data);
         }
         
-        public TurkPosWSTEST.ST_Vadeli_Islem_Izleme_Sonuc Vadeli_Islem_Izleme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No)
+        public TurkPosWS.ST_Vadeli_Islem_Izleme_Sonuc Vadeli_Islem_Izleme(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No)
         {
             return base.Channel.Vadeli_Islem_Izleme(G, GUID, Tarih_Bas, Tarih_Bit, Siparis_No);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Vadeli_Islem_Izleme_Sonuc> Vadeli_Islem_IzlemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Vadeli_Islem_Izleme_Sonuc> Vadeli_Islem_IzlemeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Tarih_Bas, string Tarih_Bit, string Siparis_No)
         {
             return base.Channel.Vadeli_Islem_IzlemeAsync(G, GUID, Tarih_Bas, Tarih_Bit, Siparis_No);
         }
         
-        public TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -9889,8 +9889,8 @@ namespace TurkPosWSTEST
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Ekleme(G, ETS_GUID, Tip, Ad_Soyad, Unvan, TC_VN, Kisi_DogumTarihi, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Yetkili_Kisi_TC, Yetkili_Kisi_DogumTarihi, Vergi_Daire, Bagli_Olunan_Hesap);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_EklemeAsync(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_EklemeAsync(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -9914,8 +9914,8 @@ namespace TurkPosWSTEST
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_EklemeAsync(G, ETS_GUID, Tip, Ad_Soyad, Unvan, TC_VN, Kisi_DogumTarihi, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Yetkili_Kisi_TC, Yetkili_Kisi_DogumTarihi, Vergi_Daire, Bagli_Olunan_Hesap);
         }
         
-        public TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -9941,8 +9941,8 @@ namespace TurkPosWSTEST
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2(G, ETS_GUID, Tip, Ad_Soyad, Unvan, TC_VN, Kisi_DogumTarihi, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Yetkili_Kisi_TC, Yetkili_Kisi_DogumTarihi, Vergi_Daire, Bagli_Olunan_Hesap, SAPId, MagentoId);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2Async(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2Async(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string ETS_GUID, 
                     int Tip, 
                     string Ad_Soyad, 
@@ -9968,18 +9968,18 @@ namespace TurkPosWSTEST
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Ekleme_v2Async(G, ETS_GUID, Tip, Ad_Soyad, Unvan, TC_VN, Kisi_DogumTarihi, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Yetkili_Kisi_TC, Yetkili_Kisi_DogumTarihi, Vergi_Daire, Bagli_Olunan_Hesap, SAPId, MagentoId);
         }
         
-        public TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap)
+        public TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap)
         {
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Guncelleme(G, GUID_AltUyeIsyeri, Ad_Soyad, Unvan, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Vergi_Daire, Bagli_Olunan_Hesap);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_GuncellemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap)
+        public System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_GuncellemeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri, string Ad_Soyad, string Unvan, string GSM_No, string IBAN_No, string IBAN_Unvan, string Adres, string Il, string Ilce, string EPosta, string Website, string MCC_Kod, string Vergi_Daire, string Bagli_Olunan_Hesap)
         {
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_GuncellemeAsync(G, GUID_AltUyeIsyeri, Ad_Soyad, Unvan, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Vergi_Daire, Bagli_Olunan_Hesap);
         }
         
-        public TurkPosWSTEST.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public TurkPosWS.Sonuc_Uyelik Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID_AltUyeIsyeri, 
                     string Ad_Soyad, 
                     string Unvan, 
@@ -10000,8 +10000,8 @@ namespace TurkPosWSTEST
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2(G, GUID_AltUyeIsyeri, Ad_Soyad, Unvan, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Vergi_Daire, Bagli_Olunan_Hesap, SAPId, MagentoId);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2Async(
-                    TurkPosWSTEST.ST_WS_Guvenlik G, 
+        public System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik> Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2Async(
+                    TurkPosWS.ST_WS_Guvenlik G, 
                     string GUID_AltUyeIsyeri, 
                     string Ad_Soyad, 
                     string Unvan, 
@@ -10022,182 +10022,182 @@ namespace TurkPosWSTEST
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Guncelleme_v2Async(G, GUID_AltUyeIsyeri, Ad_Soyad, Unvan, GSM_No, IBAN_No, IBAN_Unvan, Adres, Il, Ilce, EPosta, Website, MCC_Kod, Vergi_Daire, Bagli_Olunan_Hesap, SAPId, MagentoId);
         }
         
-        public TurkPosWSTEST.Sonuc_Uyelik_Liste Pazaryeri_TP_AltUyeIsyeri_Liste(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip)
+        public TurkPosWS.Sonuc_Uyelik_Liste Pazaryeri_TP_AltUyeIsyeri_Liste(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip)
         {
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Liste(G, ETS_GUID, Limit, Skip);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Uyelik_Liste> Pazaryeri_TP_AltUyeIsyeri_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip)
+        public System.Threading.Tasks.Task<TurkPosWS.Sonuc_Uyelik_Liste> Pazaryeri_TP_AltUyeIsyeri_ListeAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Limit, string Skip)
         {
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_ListeAsync(G, ETS_GUID, Limit, Skip);
         }
         
-        public object Pazaryeri_TP_AltUyeIsyeri_Silme(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri)
+        public object Pazaryeri_TP_AltUyeIsyeri_Silme(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri)
         {
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_Silme(G, GUID_AltUyeIsyeri);
         }
         
-        public System.Threading.Tasks.Task<object> Pazaryeri_TP_AltUyeIsyeri_SilmeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri)
+        public System.Threading.Tasks.Task<object> Pazaryeri_TP_AltUyeIsyeri_SilmeAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID_AltUyeIsyeri)
         {
             return base.Channel.Pazaryeri_TP_AltUyeIsyeri_SilmeAsync(G, GUID_AltUyeIsyeri);
         }
         
-        public TurkPosWSTEST.STC_SonucII Pazaryeri_TP_Iptal_Iade(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar)
+        public TurkPosWS.STC_SonucII Pazaryeri_TP_Iptal_Iade(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar)
         {
             return base.Channel.Pazaryeri_TP_Iptal_Iade(G, PYSiparis_GUID, GUID, Durum, Siparis_ID, SiparisTutar, OdenecekTutar);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.STC_SonucII> Pazaryeri_TP_Iptal_IadeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar)
+        public System.Threading.Tasks.Task<TurkPosWS.STC_SonucII> Pazaryeri_TP_Iptal_IadeAsync(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string GUID, string Durum, string Siparis_ID, double SiparisTutar, double OdenecekTutar)
         {
             return base.Channel.Pazaryeri_TP_Iptal_IadeAsync(G, PYSiparis_GUID, GUID, Durum, Siparis_ID, SiparisTutar, OdenecekTutar);
         }
         
-        public TurkPosWSTEST.Sonuc_Limit2 Pazaryeri_TP_Limit_Kontrol(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek)
+        public TurkPosWS.Sonuc_Limit2 Pazaryeri_TP_Limit_Kontrol(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek)
         {
             return base.Channel.Pazaryeri_TP_Limit_Kontrol(ETS_GUID, GUID_AltUyeIsyeri, Tutar_Odenecek);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.Sonuc_Limit2> Pazaryeri_TP_Limit_KontrolAsync(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek)
+        public System.Threading.Tasks.Task<TurkPosWS.Sonuc_Limit2> Pazaryeri_TP_Limit_KontrolAsync(string ETS_GUID, string GUID_AltUyeIsyeri, string Tutar_Odenecek)
         {
             return base.Channel.Pazaryeri_TP_Limit_KontrolAsync(ETS_GUID, GUID_AltUyeIsyeri, Tutar_Odenecek);
         }
         
-        public TurkPosWSTEST.SE_Sonuc Pazaryeri_TP_Siparis_Detay_Ekle(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri)
+        public TurkPosWS.SE_Sonuc Pazaryeri_TP_Siparis_Detay_Ekle(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri)
         {
             return base.Channel.Pazaryeri_TP_Siparis_Detay_Ekle(G, ETS_GUID, Tutar_Urun, Tutar_Odenecek, SanalPOS_Islem_ID, GUID_AltUyeIsyeri);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.SE_Sonuc> Pazaryeri_TP_Siparis_Detay_EkleAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri)
+        public System.Threading.Tasks.Task<TurkPosWS.SE_Sonuc> Pazaryeri_TP_Siparis_Detay_EkleAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Tutar_Urun, string Tutar_Odenecek, string SanalPOS_Islem_ID, string GUID_AltUyeIsyeri)
         {
             return base.Channel.Pazaryeri_TP_Siparis_Detay_EkleAsync(G, ETS_GUID, Tutar_Urun, Tutar_Odenecek, SanalPOS_Islem_ID, GUID_AltUyeIsyeri);
         }
         
-        public TurkPosWSTEST.CL_Res_MP_ODA MP_OrderDetailAdd(TurkPosWSTEST.CL_Req_MP_ODA d)
+        public TurkPosWS.CL_Res_MP_ODA MP_OrderDetailAdd(TurkPosWS.CL_Req_MP_ODA d)
         {
             return base.Channel.MP_OrderDetailAdd(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODA> MP_OrderDetailAddAsync(TurkPosWSTEST.CL_Req_MP_ODA d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODA> MP_OrderDetailAddAsync(TurkPosWS.CL_Req_MP_ODA d)
         {
             return base.Channel.MP_OrderDetailAddAsync(d);
         }
         
-        public TurkPosWSTEST.CL_Res_MP_ODU MP_OrderDetailUpdate(TurkPosWSTEST.CL_Req_MP_ODU d)
+        public TurkPosWS.CL_Res_MP_ODU MP_OrderDetailUpdate(TurkPosWS.CL_Req_MP_ODU d)
         {
             return base.Channel.MP_OrderDetailUpdate(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODU> MP_OrderDetailUpdateAsync(TurkPosWSTEST.CL_Req_MP_ODU d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODU> MP_OrderDetailUpdateAsync(TurkPosWS.CL_Req_MP_ODU d)
         {
             return base.Channel.MP_OrderDetailUpdateAsync(d);
         }
         
-        public TurkPosWSTEST.CL_Res_MP_ODS MP_OrderDetailStatus(TurkPosWSTEST.CL_Req_MP_ODS d)
+        public TurkPosWS.CL_Res_MP_ODS MP_OrderDetailStatus(TurkPosWS.CL_Req_MP_ODS d)
         {
             return base.Channel.MP_OrderDetailStatus(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODS> MP_OrderDetailStatusAsync(TurkPosWSTEST.CL_Req_MP_ODS d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODS> MP_OrderDetailStatusAsync(TurkPosWS.CL_Req_MP_ODS d)
         {
             return base.Channel.MP_OrderDetailStatusAsync(d);
         }
         
-        public TurkPosWSTEST.CL_Res_MP_ODQ MP_OrderDetailQuery(TurkPosWSTEST.CL_Req_MP_ODQ d)
+        public TurkPosWS.CL_Res_MP_ODQ MP_OrderDetailQuery(TurkPosWS.CL_Req_MP_ODQ d)
         {
             return base.Channel.MP_OrderDetailQuery(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODQ> MP_OrderDetailQueryAsync(TurkPosWSTEST.CL_Req_MP_ODQ d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODQ> MP_OrderDetailQueryAsync(TurkPosWS.CL_Req_MP_ODQ d)
         {
             return base.Channel.MP_OrderDetailQueryAsync(d);
         }
         
-        public TurkPosWSTEST.CL_Res_MP_OCR MP_OrderCancelRefund(TurkPosWSTEST.CL_Req_MP_OCR d)
+        public TurkPosWS.CL_Res_MP_OCR MP_OrderCancelRefund(TurkPosWS.CL_Req_MP_OCR d)
         {
             return base.Channel.MP_OrderCancelRefund(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_OCR> MP_OrderCancelRefundAsync(TurkPosWSTEST.CL_Req_MP_OCR d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_OCR> MP_OrderCancelRefundAsync(TurkPosWS.CL_Req_MP_OCR d)
         {
             return base.Channel.MP_OrderCancelRefundAsync(d);
         }
         
-        public TurkPosWSTEST.CL_Res_MP_ODL MP_OrderDetailList(TurkPosWSTEST.CL_Req_MP_ODL d)
+        public TurkPosWS.CL_Res_MP_ODL MP_OrderDetailList(TurkPosWS.CL_Req_MP_ODL d)
         {
             return base.Channel.MP_OrderDetailList(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_MP_ODL> MP_OrderDetailListAsync(TurkPosWSTEST.CL_Req_MP_ODL d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_MP_ODL> MP_OrderDetailListAsync(TurkPosWS.CL_Req_MP_ODL d)
         {
             return base.Channel.MP_OrderDetailListAsync(d);
         }
         
-        public TurkPosWSTEST.CL_Res_Odeme TP_Modal_Payment(TurkPosWSTEST.CL_Req_Odeme d)
+        public TurkPosWS.CL_Res_Odeme TP_Modal_Payment(TurkPosWS.CL_Req_Odeme d)
         {
             return base.Channel.TP_Modal_Payment(d);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.CL_Res_Odeme> TP_Modal_PaymentAsync(TurkPosWSTEST.CL_Req_Odeme d)
+        public System.Threading.Tasks.Task<TurkPosWS.CL_Res_Odeme> TP_Modal_PaymentAsync(TurkPosWS.CL_Req_Odeme d)
         {
             return base.Channel.TP_Modal_PaymentAsync(d);
         }
         
-        public TurkPosWSTEST.IslemIzlemeRes Param_Pazaryeri_Islem_Izleme(TurkPosWSTEST.ST_WS_Guvenlik G, TurkPosWSTEST.IslemIzlemeReq islemIzlemeReq)
+        public TurkPosWS.IslemIzlemeRes Param_Pazaryeri_Islem_Izleme(TurkPosWS.ST_WS_Guvenlik G, TurkPosWS.IslemIzlemeReq islemIzlemeReq)
         {
             return base.Channel.Param_Pazaryeri_Islem_Izleme(G, islemIzlemeReq);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.IslemIzlemeRes> Param_Pazaryeri_Islem_IzlemeAsync(TurkPosWSTEST.ST_WS_Guvenlik G, TurkPosWSTEST.IslemIzlemeReq islemIzlemeReq)
+        public System.Threading.Tasks.Task<TurkPosWS.IslemIzlemeRes> Param_Pazaryeri_Islem_IzlemeAsync(TurkPosWS.ST_WS_Guvenlik G, TurkPosWS.IslemIzlemeReq islemIzlemeReq)
         {
             return base.Channel.Param_Pazaryeri_Islem_IzlemeAsync(G, islemIzlemeReq);
         }
         
-        public TurkPosWSTEST.STC_Sonuc Pazaryeri_TP_Siparis_Onay(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum)
+        public TurkPosWS.STC_Sonuc Pazaryeri_TP_Siparis_Onay(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum)
         {
             return base.Channel.Pazaryeri_TP_Siparis_Onay(G, PYSiparis_GUID, Durum);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.STC_Sonuc> Pazaryeri_TP_Siparis_OnayAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum)
+        public System.Threading.Tasks.Task<TurkPosWS.STC_Sonuc> Pazaryeri_TP_Siparis_OnayAsync(TurkPosWS.ST_WS_Guvenlik G, string PYSiparis_GUID, string Durum)
         {
             return base.Channel.Pazaryeri_TP_Siparis_OnayAsync(G, PYSiparis_GUID, Durum);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc Pazaryeri_TP_Islem_Sorgulama(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit)
+        public TurkPosWS.ST_Genel_Sonuc Pazaryeri_TP_Islem_Sorgulama(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit)
         {
             return base.Channel.Pazaryeri_TP_Islem_Sorgulama(G, ETS_GUID, GUID_AltUyeIsyeri, PYSiparis_GUID, SanalPOS_Islem_ID, Tarih_Bas, Tarih_Bit);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> Pazaryeri_TP_Islem_SorgulamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> Pazaryeri_TP_Islem_SorgulamaAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string GUID_AltUyeIsyeri, string PYSiparis_GUID, long SanalPOS_Islem_ID, string Tarih_Bas, string Tarih_Bit)
         {
             return base.Channel.Pazaryeri_TP_Islem_SorgulamaAsync(G, ETS_GUID, GUID_AltUyeIsyeri, PYSiparis_GUID, SanalPOS_Islem_ID, Tarih_Bas, Tarih_Bit);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc Pos_Plugin_Bildirim(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi)
+        public TurkPosWS.ST_Genel_Sonuc Pos_Plugin_Bildirim(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi)
         {
             return base.Channel.Pos_Plugin_Bildirim(G, ETS_GUID, Domain_Adres, Yazilim_Bilgisi, Yazilim_Surum_Bilgisi);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> Pos_Plugin_BildirimAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> Pos_Plugin_BildirimAsync(TurkPosWS.ST_WS_Guvenlik G, string ETS_GUID, string Domain_Adres, string Yazilim_Bilgisi, string Yazilim_Surum_Bilgisi)
         {
             return base.Channel.Pos_Plugin_BildirimAsync(G, ETS_GUID, Domain_Adres, Yazilim_Bilgisi, Yazilim_Surum_Bilgisi);
         }
         
-        public TurkPosWSTEST.ST_Sonuc_DT Il_Liste(TurkPosWSTEST.ST_WS_Guvenlik G)
+        public TurkPosWS.ST_Sonuc_DT Il_Liste(TurkPosWS.ST_WS_Guvenlik G)
         {
             return base.Channel.Il_Liste(G);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Sonuc_DT> Il_ListeAsync(TurkPosWSTEST.ST_WS_Guvenlik G)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Sonuc_DT> Il_ListeAsync(TurkPosWS.ST_WS_Guvenlik G)
         {
             return base.Channel.Il_ListeAsync(G);
         }
         
-        public TurkPosWSTEST.ST_Genel_Sonuc MoneyPay_Islem_Sorgulama(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit)
+        public TurkPosWS.ST_Genel_Sonuc MoneyPay_Islem_Sorgulama(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit)
         {
             return base.Channel.MoneyPay_Islem_Sorgulama(G, GUID, Siparis_ID, Tarih_Bas, Tarih_Bit);
         }
         
-        public System.Threading.Tasks.Task<TurkPosWSTEST.ST_Genel_Sonuc> MoneyPay_Islem_SorgulamaAsync(TurkPosWSTEST.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit)
+        public System.Threading.Tasks.Task<TurkPosWS.ST_Genel_Sonuc> MoneyPay_Islem_SorgulamaAsync(TurkPosWS.ST_WS_Guvenlik G, string GUID, string Siparis_ID, string Tarih_Bas, string Tarih_Bit)
         {
             return base.Channel.MoneyPay_Islem_SorgulamaAsync(G, GUID, Siparis_ID, Tarih_Bas, Tarih_Bit);
         }
@@ -10209,7 +10209,7 @@ namespace TurkPosWSTEST
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.TurkPos_x0020_WS_x0020_TESTSoap))
+            if ((endpointConfiguration == EndpointConfiguration.test_TurkPos_x0020_WS_x0020_Soap || endpointConfiguration == EndpointConfiguration.live_TurkPos_x0020_WS_x0020_Soap))
             {
                 System.ServiceModel.BasicHttpBinding result = new System.ServiceModel.BasicHttpBinding();
                 result.MaxBufferSize = int.MaxValue;
@@ -10219,7 +10219,7 @@ namespace TurkPosWSTEST
                 result.Security.Mode = System.ServiceModel.BasicHttpSecurityMode.Transport;
                 return result;
             }
-            if ((endpointConfiguration == EndpointConfiguration.TurkPos_x0020_WS_x0020_TESTSoap12))
+            if ((endpointConfiguration == EndpointConfiguration.test_TurkPos_x0020_WS_x0020_Soap12 || endpointConfiguration == EndpointConfiguration.live_TurkPos_x0020_WS_x0020_Soap12))
             {
                 System.ServiceModel.Channels.CustomBinding result = new System.ServiceModel.Channels.CustomBinding();
                 System.ServiceModel.Channels.TextMessageEncodingBindingElement textBindingElement = new System.ServiceModel.Channels.TextMessageEncodingBindingElement();
@@ -10237,13 +10237,21 @@ namespace TurkPosWSTEST
         
         private static System.ServiceModel.EndpointAddress GetEndpointAddress(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.TurkPos_x0020_WS_x0020_TESTSoap))
+            if ((endpointConfiguration == EndpointConfiguration.test_TurkPos_x0020_WS_x0020_Soap))
             {
                 return new System.ServiceModel.EndpointAddress("https://test-dmz.param.com.tr/turkpos.ws/service_turkpos_test.asmx");
             }
-            if ((endpointConfiguration == EndpointConfiguration.TurkPos_x0020_WS_x0020_TESTSoap12))
+            if ((endpointConfiguration == EndpointConfiguration.test_TurkPos_x0020_WS_x0020_Soap12))
             {
                 return new System.ServiceModel.EndpointAddress("https://test-dmz.param.com.tr/turkpos.ws/service_turkpos_test.asmx");
+            }
+            if ((endpointConfiguration == EndpointConfiguration.live_TurkPos_x0020_WS_x0020_Soap))
+            {
+                return new System.ServiceModel.EndpointAddress("https://posws.param.com.tr/turkpos.ws/service_turkpos_prod.asmx");
+            }
+            if ((endpointConfiguration == EndpointConfiguration.live_TurkPos_x0020_WS_x0020_Soap12))
+            {
+                return new System.ServiceModel.EndpointAddress("https://posws.param.com.tr/turkpos.ws/service_turkpos_prod.asmx");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }
@@ -10251,9 +10259,12 @@ namespace TurkPosWSTEST
         public enum EndpointConfiguration
         {
             
-            TurkPos_x0020_WS_x0020_TESTSoap,
+            test_TurkPos_x0020_WS_x0020_Soap,
             
-            TurkPos_x0020_WS_x0020_TESTSoap12,
+            test_TurkPos_x0020_WS_x0020_Soap12,
+            live_TurkPos_x0020_WS_x0020_Soap,
+            
+            live_TurkPos_x0020_WS_x0020_Soap12
         }
     }
 }

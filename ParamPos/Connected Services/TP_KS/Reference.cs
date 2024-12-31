@@ -661,7 +661,7 @@ namespace TP_KS
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.TP_KSSoap))
+            if ((endpointConfiguration == EndpointConfiguration.test_TP_KSSoap || endpointConfiguration == EndpointConfiguration.live_TP_KSSoap))
             {
                 System.ServiceModel.BasicHttpBinding result = new System.ServiceModel.BasicHttpBinding();
                 result.MaxBufferSize = int.MaxValue;
@@ -671,7 +671,7 @@ namespace TP_KS
                 result.Security.Mode = System.ServiceModel.BasicHttpSecurityMode.Transport;
                 return result;
             }
-            if ((endpointConfiguration == EndpointConfiguration.TP_KSSoap12))
+            if ((endpointConfiguration == EndpointConfiguration.test_TP_KSSoap12 || endpointConfiguration == EndpointConfiguration.live_TP_KSSoap12))
             {
                 System.ServiceModel.Channels.CustomBinding result = new System.ServiceModel.Channels.CustomBinding();
                 System.ServiceModel.Channels.TextMessageEncodingBindingElement textBindingElement = new System.ServiceModel.Channels.TextMessageEncodingBindingElement();
@@ -689,13 +689,21 @@ namespace TP_KS
         
         private static System.ServiceModel.EndpointAddress GetEndpointAddress(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.TP_KSSoap))
+            if ((endpointConfiguration == EndpointConfiguration.test_TP_KSSoap))
             {
                 return new System.ServiceModel.EndpointAddress("https://test-dmz.param.com.tr/out.ws/service_ks.asmx");
             }
-            if ((endpointConfiguration == EndpointConfiguration.TP_KSSoap12))
+            if ((endpointConfiguration == EndpointConfiguration.test_TP_KSSoap12))
             {
-                return new System.ServiceModel.EndpointAddress("https://test-dmz.param.com.tr/out.ws/service_ks.asmx");
+                return new System.ServiceModel.EndpointAddress("https://test-dmz.param.com.tr/out.ws/service_ks.asmx");                                                        
+            }
+            if ((endpointConfiguration == EndpointConfiguration.live_TP_KSSoap))
+            {
+                return new System.ServiceModel.EndpointAddress("https://epws01.param.com.tr/out.ws/service_ks.asmx");
+            }
+            if ((endpointConfiguration == EndpointConfiguration.live_TP_KSSoap12))
+            {
+                return new System.ServiceModel.EndpointAddress("https://epws01.param.com.tr/out.ws/service_ks.asmx");                                                        
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }
@@ -703,9 +711,12 @@ namespace TP_KS
         public enum EndpointConfiguration
         {
             
-            TP_KSSoap,
+            test_TP_KSSoap,
             
-            TP_KSSoap12,
+            test_TP_KSSoap12,
+            live_TP_KSSoap,
+            
+            live_TP_KSSoap12,
         }
     }
 }

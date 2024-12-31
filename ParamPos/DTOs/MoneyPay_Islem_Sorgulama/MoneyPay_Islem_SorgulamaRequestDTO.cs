@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 
 namespace ParamPos.DTOs.MoneyPay_Islem_Sorgulama
 {

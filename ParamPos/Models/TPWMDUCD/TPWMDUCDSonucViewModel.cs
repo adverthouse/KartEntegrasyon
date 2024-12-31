@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 using ParamPos.DTOs.TP_WMD_UCD;
 
 namespace ParamPos.Models.TPWMDUCD

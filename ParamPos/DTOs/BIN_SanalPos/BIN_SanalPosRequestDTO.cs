@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 
 namespace ParamPos.DTOs.BIN_SanalPos
 {

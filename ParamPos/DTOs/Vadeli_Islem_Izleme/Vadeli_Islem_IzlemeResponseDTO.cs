@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 
 namespace ParamPos.DTOs.Vadeli_Islem_Izleme
 {

@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 using ParamPos.DTOs.Pazaryeri_TP_AltUyeIsyeri_Silme;
 
 namespace ParamPos.Models.PazaryeriTPAltUyeIsyeriSilme

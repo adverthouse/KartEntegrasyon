@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 using ParamPos.DTOs.TP_KK_Verify;
 
 namespace ParamPos.Models.TPKKVerify

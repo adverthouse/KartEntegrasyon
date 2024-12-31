@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 using ParamPos.DTOs.TP_Islem_Odeme_OnProv_WMD;
 
 namespace ParamPos.Models.TPIslemOdemeOnProvWMD

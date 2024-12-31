@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 
 namespace ParamPos.DTOs.TP_Islem_Odeme
 {

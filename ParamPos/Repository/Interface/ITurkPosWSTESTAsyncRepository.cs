@@ -1,8 +1,8 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 
 namespace ParamPos.Repository.Interface
 {
-    public interface ITurkPosWSTESTAsyncRepository
+    public interface ITurkPosWSAsyncRepository
     {
         /// <summary>Kredi kartına ait kart-banka bilgisini ve SanalPOS_ID değerini dönme işlemini uygular.</summary>
         /// <param name="G">ST_WS_Guvenlik Nesnesi (Zorunlu)</param>

@@ -1,4 +1,4 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 
 namespace ParamPos.DTOs.Pazaryeri_TP_Siparis_Detay_Ekle
 {

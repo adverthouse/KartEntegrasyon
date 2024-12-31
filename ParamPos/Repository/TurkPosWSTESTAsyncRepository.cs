@@ -1,13 +1,13 @@
-﻿using TurkPosWSTEST;
+﻿using TurkPosWS;
 using ParamPos.Repository.Interface;
 
 namespace ParamPos.Repository
 {
     /// <inheritdoc />
-    public class TurkPosWSTESTAsyncRepository : ITurkPosWSTESTAsyncRepository
+    public class TurkPosWSAsyncRepository : ITurkPosWSAsyncRepository
     {
-        private readonly TurkPosWSTESTSoapClient client;
-        public TurkPosWSTESTAsyncRepository(TurkPosWSTESTSoapClient client)
+        private readonly TurkPosWSSoapClient client;
+        public TurkPosWSAsyncRepository(TurkPosWSSoapClient client)
         {
             this.client = client;
         }

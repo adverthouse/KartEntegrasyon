@@ -6092,7 +6092,7 @@ namespace service_param
         
         private static System.ServiceModel.Channels.Binding GetBindingForEndpoint(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.service_paramSoap))
+            if ((endpointConfiguration == EndpointConfiguration.test_service_paramSoap || endpointConfiguration == EndpointConfiguration.live_service_paramSoap))
             {
                 System.ServiceModel.BasicHttpBinding result = new System.ServiceModel.BasicHttpBinding();
                 result.MaxBufferSize = int.MaxValue;
@@ -6102,7 +6102,7 @@ namespace service_param
                 result.Security.Mode = System.ServiceModel.BasicHttpSecurityMode.Transport;
                 return result;
             }
-            if ((endpointConfiguration == EndpointConfiguration.service_paramSoap12))
+            if ((endpointConfiguration == EndpointConfiguration.test_service_paramSoap12 || endpointConfiguration == EndpointConfiguration.live_service_paramSoap12 ))
             {
                 System.ServiceModel.Channels.CustomBinding result = new System.ServiceModel.Channels.CustomBinding();
                 System.ServiceModel.Channels.TextMessageEncodingBindingElement textBindingElement = new System.ServiceModel.Channels.TextMessageEncodingBindingElement();
@@ -6120,13 +6120,21 @@ namespace service_param
         
         private static System.ServiceModel.EndpointAddress GetEndpointAddress(EndpointConfiguration endpointConfiguration)
         {
-            if ((endpointConfiguration == EndpointConfiguration.service_paramSoap))
+            if ((endpointConfiguration == EndpointConfiguration.test_service_paramSoap))
             {
                 return new System.ServiceModel.EndpointAddress("https://test-dmz.param.com.tr/param.ws/service_param.asmx");
             }
-            if ((endpointConfiguration == EndpointConfiguration.service_paramSoap12))
+            if ((endpointConfiguration == EndpointConfiguration.test_service_paramSoap12))
             {
                 return new System.ServiceModel.EndpointAddress("https://test-dmz.param.com.tr/param.ws/service_param.asmx");
+            }
+            if ((endpointConfiguration == EndpointConfiguration.live_service_paramSoap))
+            {
+                return new System.ServiceModel.EndpointAddress("https://epws01.param.com.tr/param.ws/service_param.asmx");
+            }
+            if ((endpointConfiguration == EndpointConfiguration.live_service_paramSoap12))
+            {
+                return new System.ServiceModel.EndpointAddress("https://epws01.param.com.tr/param.ws/service_param.asmx");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }
@@ -6134,9 +6142,10 @@ namespace service_param
         public enum EndpointConfiguration
         {
             
-            service_paramSoap,
-            
-            service_paramSoap12,
+            test_service_paramSoap,            
+            test_service_paramSoap12,
+            live_service_paramSoap,            
+            live_service_paramSoap12,
         }
     }
     
